@@ -7,6 +7,7 @@
 @prefix obda: <https://w3id.org/obda/vocabulary#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
 @base <https://w3id.org/digitalconstruction/0.5/Stages> .
 
 <https://w3id.org/digitalconstruction/0.5/Stages> rdf:type owl:Ontology ;
@@ -16,6 +17,8 @@
                                                    terms:date "2020-04-15T15:47:00"^^xsd:dateTime ;
                                                    rdfs:comment "A vocabulary for BLCS stages"^^xsd:string ;
                                                    rdfs:label "A vocabulary for BLCS stages"^^xsd:string ;
+						   vann:preferredNamespacePrefix "dicstg" ;
+                                                   vann:preferredNamespaceUri "https://w3id.org/digitalconstruction/0.5/Stages" ;
                                                    rdfs:seeAlso "https://w3id.org/digitalconstruction/0.5"^^xsd:string ;
                                                    owl:versionInfo "0.5"^^xsd:string .
 
