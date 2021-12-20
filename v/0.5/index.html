@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>A vocabulary for BLCS stages</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    
-    <style>
-        #pylode {
+ <head>
+  <title>
+   A vocabulary for BLCS stages
+  </title>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+  <style>
+   #pylode {
             position: fixed;
             top: 130px;
             left: -60px;
@@ -184,10 +185,9 @@
             color: #336;
             text-decoration: none;
         }
-    </style>
-    
-    <script type="application/ld+json">
-      [
+  </style>
+  <script type="application/ld+json">
+   [
   {
     "@id": "https://w3id.org/digitalconstruction/0.5/Stages",
     "@type": [
@@ -205,942 +205,1772 @@
     ]
   }
 ]
-    </script>
-</head>
-<body>
-  <div id="pylode">made by <a href="http://github.com/rdflib/pyLODE">
-    <span style="color:#329545;">p</span><span style="color:#f9cb33;">y</span>LODE</a>
-    <span style="font-size:smaller;">2.8.5</span>
+  </script>
+ </head>
+ <body>
+  <div id="pylode">
+   made by
+   <a href="http://github.com/rdflib/pyLODE">
+    <span style="color:#329545;">
+     p
+    </span>
+    <span style="color:#f9cb33;">
+     y
+    </span>
+    LODE
+   </a>
+   <span style="font-size:smaller;">
+    2.8.5
+   </span>
   </div>
-  <h1>A vocabulary for BLCS stages</h1>
-<section id="metadata">
-    <h2 style="display:none;">Metadata</h2>
-    <dl>
-        <dt>URI</dt>
-        <dd><code>https://w3id.org/digitalconstruction/0.5/Stages</code></dd>
-        <dt><a class="proplink" href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/creator">Creator</a>(s)</dt>
-        <dd>
-            Janakiram Karlapudi (janakiram.karlapudi@tu-dresden.de)<br/>
-            Prathap Valluru (prathap.valluru@tu-dresden.de)<br/>
-        </dd>
-        <dt>Version Information</dt>
-        <dd>0.5</dd>
-        <dt>Imports</dt>
-        <dd>
-            <a href="https://w3id.org/digitalconstruction/0.5/Lifecycle/lifecycle.ttl">https://w3id.org/digitalconstruction/0.5/Lifecycle/lifecycle.ttl</a><br/>
-        </dd>
-        <dt>Ontology RDF</dt>
-        <dd><a href="stages.ttl">RDF (turtle)</a></dd>
-    </dl>
-    <h2>Description</h2>
-    <div id="description">
-        <p>A vocabulary for BLCS stages</p>
-    </div>
-</section>
-<section id="toc">
-    <h2>Table of Contents</h2>
-    <ol>
-        <li><a href="#annotationproperties">Annotation Properties</a></li>
-        <li><a href="#namedindividuals">Named Individuals</a></li>
-        <li><a href="#namespaces">Namespaces</a></li>
-        <li><a href="#legend">Legend</a></li>
-    </ol>
-</section>
-<section id="overview">
-    <h2>Overview</h2>
-    <div class="figure">
-        <div style="width:500px; height:50px; background-color: lightgrey; border:solid 2px grey; padding:10px;margin-bottom:5px; text-align:center;">Pictures say 1,000 words</div>
-        <div class="caption"><strong>Figure 1:</strong> Ontology overview</div>
-    </div>
-</section>
-  <section id="classes">
-    <h2>Classes <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
-    <ul class="hlist">
-    </ul>
-</section>
-<section id="annotationproperties">
-    <h2>Annotation Properties <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
-    <ul class="hlist">
-        <li><a href="#creator">creator</a></li>
-        <li><a href="#date">date</a></li>
-        <li><a href="#description">description</a></li>
-        <li><a href="#title">title</a></li>
-        <li><a href="#isRelaventWith">isRelaventWith</a></li>
-    </ul>
-    <div class="entity property" id="creator">
-        <h3>creator<sup title="annotation property" class="sup-ap">ap</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td><code>http://purl.org/dc/terms/creator</code></td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity property" id="date">
-        <h3>date<sup title="annotation property" class="sup-ap">ap</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td><code>http://purl.org/dc/terms/date</code></td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity property" id="description">
-        <h3>description<sup title="annotation property" class="sup-ap">ap</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td><code>http://purl.org/dc/terms/description</code></td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity property" id="title">
-        <h3>title<sup title="annotation property" class="sup-ap">ap</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td><code>http://purl.org/dc/terms/title</code></td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity property" id="isRelaventWith">
-        <h3>isRelaventWith<sup title="annotation property" class="sup-ap">ap</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td><code>https://w3id.org/digitalconstruction/0.5/Lifecycle#isRelaventWith</code></td>
-            </tr>
-        </table>
-    </div>
-</section>
-
-  
-  <section id="namedindividuals">
-    <h2>Named Individuals <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
-    <ul class="hlist">
-        <li><a href="#BS_EN_16310">BS_EN_16310</a></li>
-        <li><a href="#BS_EN_Business_case">BS_EN_Business_case</a></li>
-        <li><a href="#BS_EN_Commissioning">BS_EN_Commissioning</a></li>
-        <li><a href="#BS_EN_Conceptual_design">BS_EN_Conceptual_design</a></li>
-        <li><a href="#BS_EN_Construction">BS_EN_Construction</a></li>
-        <li><a href="#BS_EN_Construction_contracting">BS_EN_Construction_contracting</a></li>
-        <li><a href="#BS_EN_Design">BS_EN_Design</a></li>
-        <li><a href="#BS_EN_Detailed_design">BS_EN_Detailed_design</a></li>
-        <li><a href="#BS_EN_Developed_design">BS_EN_Developed_design</a></li>
-        <li><a href="#BS_EN_Dismantling">BS_EN_Dismantling</a></li>
-        <li><a href="#BS_EN_End_of_Life">BS_EN_End_of_Life</a></li>
-        <li><a href="#BS_EN_Feasibility_study">BS_EN_Feasibility_study</a></li>
-        <li><a href="#BS_EN_Handover">BS_EN_Handover</a></li>
-        <li><a href="#BS_EN_Initiation">BS_EN_Initiation</a></li>
-        <li><a href="#BS_EN_Initiative">BS_EN_Initiative</a></li>
-        <li><a href="#BS_EN_Maintenance">BS_EN_Maintenance</a></li>
-        <li><a href="#BS_EN_Market_study">BS_EN_Market_study</a></li>
-        <li><a href="#BS_EN_Operation">BS_EN_Operation</a></li>
-        <li><a href="#BS_EN_Pre_construction">BS_EN_Pre_construction</a></li>
-        <li><a href="#BS_EN_Preliminary_design">BS_EN_Preliminary_design</a></li>
-        <li><a href="#BS_EN_Procurement">BS_EN_Procurement</a></li>
-        <li><a href="#BS_EN_Project_definition">BS_EN_Project_definition</a></li>
-        <li><a href="#BS_EN_Project_initiation">BS_EN_Project_initiation</a></li>
-        <li><a href="#BS_EN_Regulatory_approval">BS_EN_Regulatory_approval</a></li>
-        <li><a href="#BS_EN_Revamping">BS_EN_Revamping</a></li>
-        <li><a href="#BS_EN_Technical_design">BS_EN_Technical_design</a></li>
-        <li><a href="#BS_EN_Use">BS_EN_Use</a></li>
-        <li><a href="#HOAI">HOAI</a></li>
-        <li><a href="#HOAI_AssistingTheAwardProcess">HOAI_AssistingTheAwardProcess</a></li>
-        <li><a href="#HOAI_BaseOfTheProject">HOAI_BaseOfTheProject</a></li>
-        <li><a href="#HOAI_BuildingPermissionApplication">HOAI_BuildingPermissionApplication</a></li>
-        <li><a href="#HOAI_ExecutionDrawings">HOAI_ExecutionDrawings</a></li>
-        <li><a href="#HOAI_FinalDesign">HOAI_FinalDesign</a></li>
-        <li><a href="#HOAI_PreliminaryDesign">HOAI_PreliminaryDesign</a></li>
-        <li><a href="#HOAI_PreparationOfContractAward">HOAI_PreparationOfContractAward</a></li>
-        <li><a href="#HOAI_ProjectControlandDocumentation">HOAI_ProjectControlandDocumentation</a></li>
-        <li><a href="#HOAI_ProjectSupervision">HOAI_ProjectSupervision</a></li>
-        <li><a href="#ISO_22263">ISO_22263</a></li>
-        <li><a href="#ISO_Brief">ISO_Brief</a></li>
-        <li><a href="#ISO_Demolition">ISO_Demolition</a></li>
-        <li><a href="#ISO_Design">ISO_Design</a></li>
-        <li><a href="#ISO_Inception">ISO_Inception</a></li>
-        <li><a href="#ISO_Production">ISO_Production</a></li>
-        <li><a href="#RIBA">RIBA</a></li>
-        <li><a href="#RIBA_ConceptDesign">RIBA_ConceptDesign</a></li>
-        <li><a href="#RIBA_Construction">RIBA_Construction</a></li>
-        <li><a href="#RIBA_DevelopedDesign">RIBA_DevelopedDesign</a></li>
-        <li><a href="#RIBA_HandoverandCloseout">RIBA_HandoverandCloseout</a></li>
-        <li><a href="#RIBA_InUse">RIBA_InUse</a></li>
-        <li><a href="#RIBA_PreparationandBrief">RIBA_PreparationandBrief</a></li>
-        <li><a href="#RIBA_StrategicDefinition">RIBA_StrategicDefinition</a></li>
-        <li><a href="#RIBA_TechnicalDesign">RIBA_TechnicalDesign</a></li>
-    </ul>
-    <div class="entity named_individual" id="BS_EN_16310">
-        <h3>BS_EN_16310<sup title="named individual" class="sup-ni">ni</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td>
-                  <code>
-                      https://w3id.org/digitalconstruction/0.5/Stages#BS_EN_16310
-                  
-                  </code>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity named_individual" id="BS_EN_Business_case">
-        <h3>BS_EN_Business_case<sup title="named individual" class="sup-ni">ni</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td>
-                  <code>
-                      https://w3id.org/digitalconstruction/0.5/Stages#BS_EN_Business_case
-                  
-                  </code>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity named_individual" id="BS_EN_Commissioning">
-        <h3>BS_EN_Commissioning<sup title="named individual" class="sup-ni">ni</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td>
-                  <code>
-                      https://w3id.org/digitalconstruction/0.5/Stages#BS_EN_Commissioning
-                  
-                  </code>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity named_individual" id="BS_EN_Conceptual_design">
-        <h3>BS_EN_Conceptual_design<sup title="named individual" class="sup-ni">ni</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td>
-                  <code>
-                      https://w3id.org/digitalconstruction/0.5/Stages#BS_EN_Conceptual_design
-                  
-                  </code>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity named_individual" id="BS_EN_Construction">
-        <h3>BS_EN_Construction<sup title="named individual" class="sup-ni">ni</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td>
-                  <code>
-                      https://w3id.org/digitalconstruction/0.5/Stages#BS_EN_Construction
-                  
-                  </code>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity named_individual" id="BS_EN_Construction_contracting">
-        <h3>BS_EN_Construction_contracting<sup title="named individual" class="sup-ni">ni</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td>
-                  <code>
-                      https://w3id.org/digitalconstruction/0.5/Stages#BS_EN_Construction_contracting
-                  
-                  </code>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity named_individual" id="BS_EN_Design">
-        <h3>BS_EN_Design<sup title="named individual" class="sup-ni">ni</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td>
-                  <code>
-                      https://w3id.org/digitalconstruction/0.5/Stages#BS_EN_Design
-                  
-                  </code>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity named_individual" id="BS_EN_Detailed_design">
-        <h3>BS_EN_Detailed_design<sup title="named individual" class="sup-ni">ni</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td>
-                  <code>
-                      https://w3id.org/digitalconstruction/0.5/Stages#BS_EN_Detailed_design
-                  
-                  </code>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity named_individual" id="BS_EN_Developed_design">
-        <h3>BS_EN_Developed_design<sup title="named individual" class="sup-ni">ni</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td>
-                  <code>
-                      https://w3id.org/digitalconstruction/0.5/Stages#BS_EN_Developed_design
-                  
-                  </code>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity named_individual" id="BS_EN_Dismantling">
-        <h3>BS_EN_Dismantling<sup title="named individual" class="sup-ni">ni</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td>
-                  <code>
-                      https://w3id.org/digitalconstruction/0.5/Stages#BS_EN_Dismantling
-                  
-                  </code>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity named_individual" id="BS_EN_End_of_Life">
-        <h3>BS_EN_End_of_Life<sup title="named individual" class="sup-ni">ni</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td>
-                  <code>
-                      https://w3id.org/digitalconstruction/0.5/Stages#BS_EN_End_of_Life
-                  
-                  </code>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity named_individual" id="BS_EN_Feasibility_study">
-        <h3>BS_EN_Feasibility_study<sup title="named individual" class="sup-ni">ni</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td>
-                  <code>
-                      https://w3id.org/digitalconstruction/0.5/Stages#BS_EN_Feasibility_study
-                  
-                  </code>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity named_individual" id="BS_EN_Handover">
-        <h3>BS_EN_Handover<sup title="named individual" class="sup-ni">ni</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td>
-                  <code>
-                      https://w3id.org/digitalconstruction/0.5/Stages#BS_EN_Handover
-                  
-                  </code>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity named_individual" id="BS_EN_Initiation">
-        <h3>BS_EN_Initiation<sup title="named individual" class="sup-ni">ni</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td>
-                  <code>
-                      https://w3id.org/digitalconstruction/0.5/Stages#BS_EN_Initiation
-                  
-                  </code>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity named_individual" id="BS_EN_Initiative">
-        <h3>BS_EN_Initiative<sup title="named individual" class="sup-ni">ni</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td>
-                  <code>
-                      https://w3id.org/digitalconstruction/0.5/Stages#BS_EN_Initiative
-                  
-                  </code>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity named_individual" id="BS_EN_Maintenance">
-        <h3>BS_EN_Maintenance<sup title="named individual" class="sup-ni">ni</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td>
-                  <code>
-                      https://w3id.org/digitalconstruction/0.5/Stages#BS_EN_Maintenance
-                  
-                  </code>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity named_individual" id="BS_EN_Market_study">
-        <h3>BS_EN_Market_study<sup title="named individual" class="sup-ni">ni</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td>
-                  <code>
-                      https://w3id.org/digitalconstruction/0.5/Stages#BS_EN_Market_study
-                  
-                  </code>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity named_individual" id="BS_EN_Operation">
-        <h3>BS_EN_Operation<sup title="named individual" class="sup-ni">ni</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td>
-                  <code>
-                      https://w3id.org/digitalconstruction/0.5/Stages#BS_EN_Operation
-                  
-                  </code>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity named_individual" id="BS_EN_Pre_construction">
-        <h3>BS_EN_Pre_construction<sup title="named individual" class="sup-ni">ni</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td>
-                  <code>
-                      https://w3id.org/digitalconstruction/0.5/Stages#BS_EN_Pre_construction
-                  
-                  </code>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity named_individual" id="BS_EN_Preliminary_design">
-        <h3>BS_EN_Preliminary_design<sup title="named individual" class="sup-ni">ni</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td>
-                  <code>
-                      https://w3id.org/digitalconstruction/0.5/Stages#BS_EN_Preliminary_design
-                  
-                  </code>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity named_individual" id="BS_EN_Procurement">
-        <h3>BS_EN_Procurement<sup title="named individual" class="sup-ni">ni</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td>
-                  <code>
-                      https://w3id.org/digitalconstruction/0.5/Stages#BS_EN_Procurement
-                  
-                  </code>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity named_individual" id="BS_EN_Project_definition">
-        <h3>BS_EN_Project_definition<sup title="named individual" class="sup-ni">ni</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td>
-                  <code>
-                      https://w3id.org/digitalconstruction/0.5/Stages#BS_EN_Project_definition
-                  
-                  </code>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity named_individual" id="BS_EN_Project_initiation">
-        <h3>BS_EN_Project_initiation<sup title="named individual" class="sup-ni">ni</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td>
-                  <code>
-                      https://w3id.org/digitalconstruction/0.5/Stages#BS_EN_Project_initiation
-                  
-                  </code>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity named_individual" id="BS_EN_Regulatory_approval">
-        <h3>BS_EN_Regulatory_approval<sup title="named individual" class="sup-ni">ni</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td>
-                  <code>
-                      https://w3id.org/digitalconstruction/0.5/Stages#BS_EN_Regulatory_approval
-                  
-                  </code>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity named_individual" id="BS_EN_Revamping">
-        <h3>BS_EN_Revamping<sup title="named individual" class="sup-ni">ni</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td>
-                  <code>
-                      https://w3id.org/digitalconstruction/0.5/Stages#BS_EN_Revamping
-                  
-                  </code>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity named_individual" id="BS_EN_Technical_design">
-        <h3>BS_EN_Technical_design<sup title="named individual" class="sup-ni">ni</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td>
-                  <code>
-                      https://w3id.org/digitalconstruction/0.5/Stages#BS_EN_Technical_design
-                  
-                  </code>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity named_individual" id="BS_EN_Use">
-        <h3>BS_EN_Use<sup title="named individual" class="sup-ni">ni</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td>
-                  <code>
-                      https://w3id.org/digitalconstruction/0.5/Stages#BS_EN_Use
-                  
-                  </code>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity named_individual" id="HOAI">
-        <h3>HOAI<sup title="named individual" class="sup-ni">ni</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td>
-                  <code>
-                      https://w3id.org/digitalconstruction/0.5/Stages#HOAI
-                  
-                  </code>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity named_individual" id="HOAI_AssistingTheAwardProcess">
-        <h3>HOAI_AssistingTheAwardProcess<sup title="named individual" class="sup-ni">ni</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td>
-                  <code>
-                      https://w3id.org/digitalconstruction/0.5/Stages#HOAI_AssistingTheAwardProcess
-                  
-                  </code>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity named_individual" id="HOAI_BaseOfTheProject">
-        <h3>HOAI_BaseOfTheProject<sup title="named individual" class="sup-ni">ni</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td>
-                  <code>
-                      https://w3id.org/digitalconstruction/0.5/Stages#HOAI_BaseOfTheProject
-                  
-                  </code>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity named_individual" id="HOAI_BuildingPermissionApplication">
-        <h3>HOAI_BuildingPermissionApplication<sup title="named individual" class="sup-ni">ni</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td>
-                  <code>
-                      https://w3id.org/digitalconstruction/0.5/Stages#HOAI_BuildingPermissionApplication
-                  
-                  </code>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity named_individual" id="HOAI_ExecutionDrawings">
-        <h3>HOAI_ExecutionDrawings<sup title="named individual" class="sup-ni">ni</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td>
-                  <code>
-                      https://w3id.org/digitalconstruction/0.5/Stages#HOAI_ExecutionDrawings
-                  
-                  </code>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity named_individual" id="HOAI_FinalDesign">
-        <h3>HOAI_FinalDesign<sup title="named individual" class="sup-ni">ni</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td>
-                  <code>
-                      https://w3id.org/digitalconstruction/0.5/Stages#HOAI_FinalDesign
-                  
-                  </code>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity named_individual" id="HOAI_PreliminaryDesign">
-        <h3>HOAI_PreliminaryDesign<sup title="named individual" class="sup-ni">ni</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td>
-                  <code>
-                      https://w3id.org/digitalconstruction/0.5/Stages#HOAI_PreliminaryDesign
-                  
-                  </code>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity named_individual" id="HOAI_PreparationOfContractAward">
-        <h3>HOAI_PreparationOfContractAward<sup title="named individual" class="sup-ni">ni</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td>
-                  <code>
-                      https://w3id.org/digitalconstruction/0.5/Stages#HOAI_PreparationOfContractAward
-                  
-                  </code>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity named_individual" id="HOAI_ProjectControlandDocumentation">
-        <h3>HOAI_ProjectControlandDocumentation<sup title="named individual" class="sup-ni">ni</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td>
-                  <code>
-                      https://w3id.org/digitalconstruction/0.5/Stages#HOAI_ProjectControlandDocumentation
-                  
-                  </code>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity named_individual" id="HOAI_ProjectSupervision">
-        <h3>HOAI_ProjectSupervision<sup title="named individual" class="sup-ni">ni</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td>
-                  <code>
-                      https://w3id.org/digitalconstruction/0.5/Stages#HOAI_ProjectSupervision
-                  
-                  </code>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity named_individual" id="ISO_22263">
-        <h3>ISO_22263<sup title="named individual" class="sup-ni">ni</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td>
-                  <code>
-                      https://w3id.org/digitalconstruction/0.5/Stages#ISO_22263
-                  
-                  </code>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity named_individual" id="ISO_Brief">
-        <h3>ISO_Brief<sup title="named individual" class="sup-ni">ni</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td>
-                  <code>
-                      https://w3id.org/digitalconstruction/0.5/Stages#ISO_Brief
-                  
-                  </code>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity named_individual" id="ISO_Demolition">
-        <h3>ISO_Demolition<sup title="named individual" class="sup-ni">ni</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td>
-                  <code>
-                      https://w3id.org/digitalconstruction/0.5/Stages#ISO_Demolition
-                  
-                  </code>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity named_individual" id="ISO_Design">
-        <h3>ISO_Design<sup title="named individual" class="sup-ni">ni</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td>
-                  <code>
-                      https://w3id.org/digitalconstruction/0.5/Stages#ISO_Design
-                  
-                  </code>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity named_individual" id="ISO_Inception">
-        <h3>ISO_Inception<sup title="named individual" class="sup-ni">ni</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td>
-                  <code>
-                      https://w3id.org/digitalconstruction/0.5/Stages#ISO_Inception
-                  
-                  </code>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity named_individual" id="ISO_Production">
-        <h3>ISO_Production<sup title="named individual" class="sup-ni">ni</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td>
-                  <code>
-                      https://w3id.org/digitalconstruction/0.5/Stages#ISO_Production
-                  
-                  </code>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity named_individual" id="RIBA">
-        <h3>RIBA<sup title="named individual" class="sup-ni">ni</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td>
-                  <code>
-                      https://w3id.org/digitalconstruction/0.5/Stages#RIBA
-                  
-                  </code>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity named_individual" id="RIBA_ConceptDesign">
-        <h3>RIBA_ConceptDesign<sup title="named individual" class="sup-ni">ni</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td>
-                  <code>
-                      https://w3id.org/digitalconstruction/0.5/Stages#RIBA_ConceptDesign
-                  
-                  </code>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity named_individual" id="RIBA_Construction">
-        <h3>RIBA_Construction<sup title="named individual" class="sup-ni">ni</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td>
-                  <code>
-                      https://w3id.org/digitalconstruction/0.5/Stages#RIBA_Construction
-                  
-                  </code>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity named_individual" id="RIBA_DevelopedDesign">
-        <h3>RIBA_DevelopedDesign<sup title="named individual" class="sup-ni">ni</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td>
-                  <code>
-                      https://w3id.org/digitalconstruction/0.5/Stages#RIBA_DevelopedDesign
-                  
-                  </code>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity named_individual" id="RIBA_HandoverandCloseout">
-        <h3>RIBA_HandoverandCloseout<sup title="named individual" class="sup-ni">ni</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td>
-                  <code>
-                      https://w3id.org/digitalconstruction/0.5/Stages#RIBA_HandoverandCloseout
-                  
-                  </code>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity named_individual" id="RIBA_InUse">
-        <h3>RIBA_InUse<sup title="named individual" class="sup-ni">ni</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td>
-                  <code>
-                      https://w3id.org/digitalconstruction/0.5/Stages#RIBA_InUse
-                  
-                  </code>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity named_individual" id="RIBA_PreparationandBrief">
-        <h3>RIBA_PreparationandBrief<sup title="named individual" class="sup-ni">ni</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td>
-                  <code>
-                      https://w3id.org/digitalconstruction/0.5/Stages#RIBA_PreparationandBrief
-                  
-                  </code>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity named_individual" id="RIBA_StrategicDefinition">
-        <h3>RIBA_StrategicDefinition<sup title="named individual" class="sup-ni">ni</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td>
-                  <code>
-                      https://w3id.org/digitalconstruction/0.5/Stages#RIBA_StrategicDefinition
-                  
-                  </code>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity named_individual" id="RIBA_TechnicalDesign">
-        <h3>RIBA_TechnicalDesign<sup title="named individual" class="sup-ni">ni</sup></h3>
-        <table>
-            <tr>
-                <th>URI</th>
-                <td>
-                  <code>
-                      https://w3id.org/digitalconstruction/0.5/Stages#RIBA_TechnicalDesign
-                  
-                  </code>
-                </td>
-            </tr>
-        </table>
-    </div>
-</section>
-  
-  <section id="namespaces">
-    <h2>Namespaces <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
-    <dl>
-        <dt>:</dt>
-        <dd><code>https://w3id.org/digitalconstruction/0.5/Stages#</code></dd>
-        <dt>dicl</dt>
-        <dd><code>https://w3id.org/digitalconstruction/0.5/Lifecycle#</code></dd>
-        <dt>obda</dt>
-        <dd><code>https://w3id.org/obda/vocabulary#</code></dd>
-        <dt>owl</dt>
-        <dd><code>http://www.w3.org/2002/07/owl#</code></dd>
-        <dt>prov</dt>
-        <dd><code>http://www.w3.org/ns/prov#</code></dd>
-        <dt>rdf</dt>
-        <dd><code>http://www.w3.org/1999/02/22-rdf-syntax-ns#</code></dd>
-        <dt>rdfs</dt>
-        <dd><code>http://www.w3.org/2000/01/rdf-schema#</code></dd>
-        <dt>sdo</dt>
-        <dd><code>https://schema.org/</code></dd>
-        <dt>skos</dt>
-        <dd><code>http://www.w3.org/2004/02/skos/core#</code></dd>
-        <dt>terms</dt>
-        <dd><code>http://purl.org/dc/terms/</code></dd>
-        <dt>vann</dt>
-        <dd><code>http://purl.org/vocab/vann/</code></dd>
-        <dt>xsd</dt>
-        <dd><code>http://www.w3.org/2001/XMLSchema#</code></dd>
-    </dl>
-</section>
-  <section id="legend">
-      <h2>Legend</h2>
-      <table class="entity">
-          <tr><td><sup class="sup-c" title="Classes">c</sup></td><td>Classes</td></tr>
-          <tr><td><sup class="sup-op" title="Object Properties">op</sup></td><td>Object Properties</td></tr>
-          <tr><td><sup class="sup-fp" title="Functional Properties">fp</sup></td><td>Functional Properties</td></tr>
-          <tr><td><sup class="sup-dp" title="Data Properties">dp</sup></td><td>Data Properties</td></tr>
-          <tr><td><sup class="sup-ap" title="Annotation Properties">dp</sup></td><td>Annotation Properties</td></tr>
-          <tr><td><sup class="sup-p" title="Properties">p</sup></td><td>Properties</td></tr>
-          <tr><td><sup class="sup-ni" title="Named Individuals">ni</sup></td><td>Named Individuals</td></tr>
-      </table>
+  <h1>
+   A vocabulary for BLCS stages
+  </h1>
+  <section id="metadata">
+   <h2 style="display:none;">
+    Metadata
+   </h2>
+   <dl>
+    <dt>
+     URI
+    </dt>
+    <dd>
+     <code>
+      https://w3id.org/digitalconstruction/0.5/Stages
+     </code>
+    </dd>
+    <dt>
+     <a class="proplink" href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/creator">
+      Creator
+     </a>
+     (s)
+    </dt>
+    <dd>
+     Janakiram Karlapudi (janakiram.karlapudi@tu-dresden.de)
+     <br/>
+     Prathap Valluru (prathap.valluru@tu-dresden.de)
+     <br/>
+    </dd>
+    <dt>
+     Version Information
+    </dt>
+    <dd>
+     0.5
+    </dd>
+    <dt>
+     Imports
+    </dt>
+    <dd>
+     <a href="https://w3id.org/digitalconstruction/0.5/Lifecycle/lifecycle.ttl">
+      https://w3id.org/digitalconstruction/0.5/Lifecycle/lifecycle.ttl
+     </a>
+     <br/>
+    </dd>
+    <dt>
+     Ontology RDF
+    </dt>
+    <dd>
+     <a href="stages.ttl">
+      RDF (turtle)
+     </a>
+    </dd>
+   </dl>
+   <h2>
+    Description
+   </h2>
+   <div id="description">
+    <p>
+     A vocabulary for BLCS stages
+    </p>
+   </div>
   </section>
-</body>
+  <section id="toc">
+   <h2>
+    Table of Contents
+   </h2>
+   <ol>
+    <li>
+     <a href="#annotationproperties">
+      Annotation Properties
+     </a>
+    </li>
+    <li>
+     <a href="#namedindividuals">
+      Named Individuals
+     </a>
+    </li>
+    <li>
+     <a href="#namespaces">
+      Namespaces
+     </a>
+    </li>
+    <li>
+     <a href="#legend">
+      Legend
+     </a>
+    </li>
+   </ol>
+  </section>
+  <section id="overview">
+   <h2>
+    Overview
+   </h2>
+   <p>
+    Digital Construction Stages vocabulary defines product lifecycle stage
+frameworks and their
+specific stages as individuals.
+   </p>
+   <p>
+    Note that as this module is a vocabulary, it only specifies
+named individuals (instances of classes), and does not define any new
+classes or properties.
+   </p>
+  </section>
+  <section id="classes">
+   <h2>
+    Classes
+    <span style="float:right; font-size:smaller;">
+     <a href="">
+      &amp;uparrow
+     </a>
+    </span>
+   </h2>
+   <ul class="hlist">
+   </ul>
+  </section>
+  <section id="annotationproperties">
+   <h2>
+    Annotation Properties
+    <span style="float:right; font-size:smaller;">
+     <a href="">
+      &amp;uparrow
+     </a>
+    </span>
+   </h2>
+   <ul class="hlist">
+    <li>
+     <a href="#creator">
+      creator
+     </a>
+    </li>
+    <li>
+     <a href="#date">
+      date
+     </a>
+    </li>
+    <li>
+     <a href="#description">
+      description
+     </a>
+    </li>
+    <li>
+     <a href="#title">
+      title
+     </a>
+    </li>
+    <li>
+     <a href="#isRelaventWith">
+      isRelaventWith
+     </a>
+    </li>
+   </ul>
+   <div class="entity property" id="creator">
+    <h3>
+     creator
+     <sup class="sup-ap" title="annotation property">
+      ap
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       URI
+      </th>
+      <td>
+       <code>
+        http://purl.org/dc/terms/creator
+       </code>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity property" id="date">
+    <h3>
+     date
+     <sup class="sup-ap" title="annotation property">
+      ap
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       URI
+      </th>
+      <td>
+       <code>
+        http://purl.org/dc/terms/date
+       </code>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity property" id="description">
+    <h3>
+     description
+     <sup class="sup-ap" title="annotation property">
+      ap
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       URI
+      </th>
+      <td>
+       <code>
+        http://purl.org/dc/terms/description
+       </code>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity property" id="title">
+    <h3>
+     title
+     <sup class="sup-ap" title="annotation property">
+      ap
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       URI
+      </th>
+      <td>
+       <code>
+        http://purl.org/dc/terms/title
+       </code>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity property" id="isRelaventWith">
+    <h3>
+     isRelaventWith
+     <sup class="sup-ap" title="annotation property">
+      ap
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       URI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/digitalconstruction/0.5/Lifecycle#isRelaventWith
+       </code>
+      </td>
+     </tr>
+    </table>
+   </div>
+  </section>
+  <section id="namedindividuals">
+   <h2>
+    Named Individuals
+    <span style="float:right; font-size:smaller;">
+     <a href="">
+      &amp;uparrow
+     </a>
+    </span>
+   </h2>
+   <ul class="hlist">
+    <li>
+     <a href="#BS_EN_16310">
+      BS_EN_16310
+     </a>
+    </li>
+    <li>
+     <a href="#BS_EN_Business_case">
+      BS_EN_Business_case
+     </a>
+    </li>
+    <li>
+     <a href="#BS_EN_Commissioning">
+      BS_EN_Commissioning
+     </a>
+    </li>
+    <li>
+     <a href="#BS_EN_Conceptual_design">
+      BS_EN_Conceptual_design
+     </a>
+    </li>
+    <li>
+     <a href="#BS_EN_Construction">
+      BS_EN_Construction
+     </a>
+    </li>
+    <li>
+     <a href="#BS_EN_Construction_contracting">
+      BS_EN_Construction_contracting
+     </a>
+    </li>
+    <li>
+     <a href="#BS_EN_Design">
+      BS_EN_Design
+     </a>
+    </li>
+    <li>
+     <a href="#BS_EN_Detailed_design">
+      BS_EN_Detailed_design
+     </a>
+    </li>
+    <li>
+     <a href="#BS_EN_Developed_design">
+      BS_EN_Developed_design
+     </a>
+    </li>
+    <li>
+     <a href="#BS_EN_Dismantling">
+      BS_EN_Dismantling
+     </a>
+    </li>
+    <li>
+     <a href="#BS_EN_End_of_Life">
+      BS_EN_End_of_Life
+     </a>
+    </li>
+    <li>
+     <a href="#BS_EN_Feasibility_study">
+      BS_EN_Feasibility_study
+     </a>
+    </li>
+    <li>
+     <a href="#BS_EN_Handover">
+      BS_EN_Handover
+     </a>
+    </li>
+    <li>
+     <a href="#BS_EN_Initiation">
+      BS_EN_Initiation
+     </a>
+    </li>
+    <li>
+     <a href="#BS_EN_Initiative">
+      BS_EN_Initiative
+     </a>
+    </li>
+    <li>
+     <a href="#BS_EN_Maintenance">
+      BS_EN_Maintenance
+     </a>
+    </li>
+    <li>
+     <a href="#BS_EN_Market_study">
+      BS_EN_Market_study
+     </a>
+    </li>
+    <li>
+     <a href="#BS_EN_Operation">
+      BS_EN_Operation
+     </a>
+    </li>
+    <li>
+     <a href="#BS_EN_Pre_construction">
+      BS_EN_Pre_construction
+     </a>
+    </li>
+    <li>
+     <a href="#BS_EN_Preliminary_design">
+      BS_EN_Preliminary_design
+     </a>
+    </li>
+    <li>
+     <a href="#BS_EN_Procurement">
+      BS_EN_Procurement
+     </a>
+    </li>
+    <li>
+     <a href="#BS_EN_Project_definition">
+      BS_EN_Project_definition
+     </a>
+    </li>
+    <li>
+     <a href="#BS_EN_Project_initiation">
+      BS_EN_Project_initiation
+     </a>
+    </li>
+    <li>
+     <a href="#BS_EN_Regulatory_approval">
+      BS_EN_Regulatory_approval
+     </a>
+    </li>
+    <li>
+     <a href="#BS_EN_Revamping">
+      BS_EN_Revamping
+     </a>
+    </li>
+    <li>
+     <a href="#BS_EN_Technical_design">
+      BS_EN_Technical_design
+     </a>
+    </li>
+    <li>
+     <a href="#BS_EN_Use">
+      BS_EN_Use
+     </a>
+    </li>
+    <li>
+     <a href="#HOAI">
+      HOAI
+     </a>
+    </li>
+    <li>
+     <a href="#HOAI_AssistingTheAwardProcess">
+      HOAI_AssistingTheAwardProcess
+     </a>
+    </li>
+    <li>
+     <a href="#HOAI_BaseOfTheProject">
+      HOAI_BaseOfTheProject
+     </a>
+    </li>
+    <li>
+     <a href="#HOAI_BuildingPermissionApplication">
+      HOAI_BuildingPermissionApplication
+     </a>
+    </li>
+    <li>
+     <a href="#HOAI_ExecutionDrawings">
+      HOAI_ExecutionDrawings
+     </a>
+    </li>
+    <li>
+     <a href="#HOAI_FinalDesign">
+      HOAI_FinalDesign
+     </a>
+    </li>
+    <li>
+     <a href="#HOAI_PreliminaryDesign">
+      HOAI_PreliminaryDesign
+     </a>
+    </li>
+    <li>
+     <a href="#HOAI_PreparationOfContractAward">
+      HOAI_PreparationOfContractAward
+     </a>
+    </li>
+    <li>
+     <a href="#HOAI_ProjectControlandDocumentation">
+      HOAI_ProjectControlandDocumentation
+     </a>
+    </li>
+    <li>
+     <a href="#HOAI_ProjectSupervision">
+      HOAI_ProjectSupervision
+     </a>
+    </li>
+    <li>
+     <a href="#ISO_22263">
+      ISO_22263
+     </a>
+    </li>
+    <li>
+     <a href="#ISO_Brief">
+      ISO_Brief
+     </a>
+    </li>
+    <li>
+     <a href="#ISO_Demolition">
+      ISO_Demolition
+     </a>
+    </li>
+    <li>
+     <a href="#ISO_Design">
+      ISO_Design
+     </a>
+    </li>
+    <li>
+     <a href="#ISO_Inception">
+      ISO_Inception
+     </a>
+    </li>
+    <li>
+     <a href="#ISO_Production">
+      ISO_Production
+     </a>
+    </li>
+    <li>
+     <a href="#RIBA">
+      RIBA
+     </a>
+    </li>
+    <li>
+     <a href="#RIBA_ConceptDesign">
+      RIBA_ConceptDesign
+     </a>
+    </li>
+    <li>
+     <a href="#RIBA_Construction">
+      RIBA_Construction
+     </a>
+    </li>
+    <li>
+     <a href="#RIBA_DevelopedDesign">
+      RIBA_DevelopedDesign
+     </a>
+    </li>
+    <li>
+     <a href="#RIBA_HandoverandCloseout">
+      RIBA_HandoverandCloseout
+     </a>
+    </li>
+    <li>
+     <a href="#RIBA_InUse">
+      RIBA_InUse
+     </a>
+    </li>
+    <li>
+     <a href="#RIBA_PreparationandBrief">
+      RIBA_PreparationandBrief
+     </a>
+    </li>
+    <li>
+     <a href="#RIBA_StrategicDefinition">
+      RIBA_StrategicDefinition
+     </a>
+    </li>
+    <li>
+     <a href="#RIBA_TechnicalDesign">
+      RIBA_TechnicalDesign
+     </a>
+    </li>
+   </ul>
+   <div class="entity named_individual" id="BS_EN_16310">
+    <h3>
+     BS_EN_16310
+     <sup class="sup-ni" title="named individual">
+      ni
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       URI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/digitalconstruction/0.5/Stages#BS_EN_16310
+       </code>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity named_individual" id="BS_EN_Business_case">
+    <h3>
+     BS_EN_Business_case
+     <sup class="sup-ni" title="named individual">
+      ni
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       URI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/digitalconstruction/0.5/Stages#BS_EN_Business_case
+       </code>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity named_individual" id="BS_EN_Commissioning">
+    <h3>
+     BS_EN_Commissioning
+     <sup class="sup-ni" title="named individual">
+      ni
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       URI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/digitalconstruction/0.5/Stages#BS_EN_Commissioning
+       </code>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity named_individual" id="BS_EN_Conceptual_design">
+    <h3>
+     BS_EN_Conceptual_design
+     <sup class="sup-ni" title="named individual">
+      ni
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       URI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/digitalconstruction/0.5/Stages#BS_EN_Conceptual_design
+       </code>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity named_individual" id="BS_EN_Construction">
+    <h3>
+     BS_EN_Construction
+     <sup class="sup-ni" title="named individual">
+      ni
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       URI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/digitalconstruction/0.5/Stages#BS_EN_Construction
+       </code>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity named_individual" id="BS_EN_Construction_contracting">
+    <h3>
+     BS_EN_Construction_contracting
+     <sup class="sup-ni" title="named individual">
+      ni
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       URI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/digitalconstruction/0.5/Stages#BS_EN_Construction_contracting
+       </code>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity named_individual" id="BS_EN_Design">
+    <h3>
+     BS_EN_Design
+     <sup class="sup-ni" title="named individual">
+      ni
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       URI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/digitalconstruction/0.5/Stages#BS_EN_Design
+       </code>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity named_individual" id="BS_EN_Detailed_design">
+    <h3>
+     BS_EN_Detailed_design
+     <sup class="sup-ni" title="named individual">
+      ni
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       URI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/digitalconstruction/0.5/Stages#BS_EN_Detailed_design
+       </code>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity named_individual" id="BS_EN_Developed_design">
+    <h3>
+     BS_EN_Developed_design
+     <sup class="sup-ni" title="named individual">
+      ni
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       URI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/digitalconstruction/0.5/Stages#BS_EN_Developed_design
+       </code>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity named_individual" id="BS_EN_Dismantling">
+    <h3>
+     BS_EN_Dismantling
+     <sup class="sup-ni" title="named individual">
+      ni
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       URI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/digitalconstruction/0.5/Stages#BS_EN_Dismantling
+       </code>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity named_individual" id="BS_EN_End_of_Life">
+    <h3>
+     BS_EN_End_of_Life
+     <sup class="sup-ni" title="named individual">
+      ni
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       URI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/digitalconstruction/0.5/Stages#BS_EN_End_of_Life
+       </code>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity named_individual" id="BS_EN_Feasibility_study">
+    <h3>
+     BS_EN_Feasibility_study
+     <sup class="sup-ni" title="named individual">
+      ni
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       URI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/digitalconstruction/0.5/Stages#BS_EN_Feasibility_study
+       </code>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity named_individual" id="BS_EN_Handover">
+    <h3>
+     BS_EN_Handover
+     <sup class="sup-ni" title="named individual">
+      ni
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       URI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/digitalconstruction/0.5/Stages#BS_EN_Handover
+       </code>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity named_individual" id="BS_EN_Initiation">
+    <h3>
+     BS_EN_Initiation
+     <sup class="sup-ni" title="named individual">
+      ni
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       URI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/digitalconstruction/0.5/Stages#BS_EN_Initiation
+       </code>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity named_individual" id="BS_EN_Initiative">
+    <h3>
+     BS_EN_Initiative
+     <sup class="sup-ni" title="named individual">
+      ni
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       URI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/digitalconstruction/0.5/Stages#BS_EN_Initiative
+       </code>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity named_individual" id="BS_EN_Maintenance">
+    <h3>
+     BS_EN_Maintenance
+     <sup class="sup-ni" title="named individual">
+      ni
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       URI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/digitalconstruction/0.5/Stages#BS_EN_Maintenance
+       </code>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity named_individual" id="BS_EN_Market_study">
+    <h3>
+     BS_EN_Market_study
+     <sup class="sup-ni" title="named individual">
+      ni
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       URI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/digitalconstruction/0.5/Stages#BS_EN_Market_study
+       </code>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity named_individual" id="BS_EN_Operation">
+    <h3>
+     BS_EN_Operation
+     <sup class="sup-ni" title="named individual">
+      ni
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       URI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/digitalconstruction/0.5/Stages#BS_EN_Operation
+       </code>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity named_individual" id="BS_EN_Pre_construction">
+    <h3>
+     BS_EN_Pre_construction
+     <sup class="sup-ni" title="named individual">
+      ni
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       URI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/digitalconstruction/0.5/Stages#BS_EN_Pre_construction
+       </code>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity named_individual" id="BS_EN_Preliminary_design">
+    <h3>
+     BS_EN_Preliminary_design
+     <sup class="sup-ni" title="named individual">
+      ni
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       URI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/digitalconstruction/0.5/Stages#BS_EN_Preliminary_design
+       </code>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity named_individual" id="BS_EN_Procurement">
+    <h3>
+     BS_EN_Procurement
+     <sup class="sup-ni" title="named individual">
+      ni
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       URI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/digitalconstruction/0.5/Stages#BS_EN_Procurement
+       </code>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity named_individual" id="BS_EN_Project_definition">
+    <h3>
+     BS_EN_Project_definition
+     <sup class="sup-ni" title="named individual">
+      ni
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       URI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/digitalconstruction/0.5/Stages#BS_EN_Project_definition
+       </code>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity named_individual" id="BS_EN_Project_initiation">
+    <h3>
+     BS_EN_Project_initiation
+     <sup class="sup-ni" title="named individual">
+      ni
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       URI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/digitalconstruction/0.5/Stages#BS_EN_Project_initiation
+       </code>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity named_individual" id="BS_EN_Regulatory_approval">
+    <h3>
+     BS_EN_Regulatory_approval
+     <sup class="sup-ni" title="named individual">
+      ni
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       URI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/digitalconstruction/0.5/Stages#BS_EN_Regulatory_approval
+       </code>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity named_individual" id="BS_EN_Revamping">
+    <h3>
+     BS_EN_Revamping
+     <sup class="sup-ni" title="named individual">
+      ni
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       URI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/digitalconstruction/0.5/Stages#BS_EN_Revamping
+       </code>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity named_individual" id="BS_EN_Technical_design">
+    <h3>
+     BS_EN_Technical_design
+     <sup class="sup-ni" title="named individual">
+      ni
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       URI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/digitalconstruction/0.5/Stages#BS_EN_Technical_design
+       </code>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity named_individual" id="BS_EN_Use">
+    <h3>
+     BS_EN_Use
+     <sup class="sup-ni" title="named individual">
+      ni
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       URI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/digitalconstruction/0.5/Stages#BS_EN_Use
+       </code>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity named_individual" id="HOAI">
+    <h3>
+     HOAI
+     <sup class="sup-ni" title="named individual">
+      ni
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       URI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/digitalconstruction/0.5/Stages#HOAI
+       </code>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity named_individual" id="HOAI_AssistingTheAwardProcess">
+    <h3>
+     HOAI_AssistingTheAwardProcess
+     <sup class="sup-ni" title="named individual">
+      ni
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       URI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/digitalconstruction/0.5/Stages#HOAI_AssistingTheAwardProcess
+       </code>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity named_individual" id="HOAI_BaseOfTheProject">
+    <h3>
+     HOAI_BaseOfTheProject
+     <sup class="sup-ni" title="named individual">
+      ni
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       URI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/digitalconstruction/0.5/Stages#HOAI_BaseOfTheProject
+       </code>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity named_individual" id="HOAI_BuildingPermissionApplication">
+    <h3>
+     HOAI_BuildingPermissionApplication
+     <sup class="sup-ni" title="named individual">
+      ni
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       URI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/digitalconstruction/0.5/Stages#HOAI_BuildingPermissionApplication
+       </code>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity named_individual" id="HOAI_ExecutionDrawings">
+    <h3>
+     HOAI_ExecutionDrawings
+     <sup class="sup-ni" title="named individual">
+      ni
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       URI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/digitalconstruction/0.5/Stages#HOAI_ExecutionDrawings
+       </code>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity named_individual" id="HOAI_FinalDesign">
+    <h3>
+     HOAI_FinalDesign
+     <sup class="sup-ni" title="named individual">
+      ni
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       URI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/digitalconstruction/0.5/Stages#HOAI_FinalDesign
+       </code>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity named_individual" id="HOAI_PreliminaryDesign">
+    <h3>
+     HOAI_PreliminaryDesign
+     <sup class="sup-ni" title="named individual">
+      ni
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       URI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/digitalconstruction/0.5/Stages#HOAI_PreliminaryDesign
+       </code>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity named_individual" id="HOAI_PreparationOfContractAward">
+    <h3>
+     HOAI_PreparationOfContractAward
+     <sup class="sup-ni" title="named individual">
+      ni
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       URI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/digitalconstruction/0.5/Stages#HOAI_PreparationOfContractAward
+       </code>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity named_individual" id="HOAI_ProjectControlandDocumentation">
+    <h3>
+     HOAI_ProjectControlandDocumentation
+     <sup class="sup-ni" title="named individual">
+      ni
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       URI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/digitalconstruction/0.5/Stages#HOAI_ProjectControlandDocumentation
+       </code>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity named_individual" id="HOAI_ProjectSupervision">
+    <h3>
+     HOAI_ProjectSupervision
+     <sup class="sup-ni" title="named individual">
+      ni
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       URI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/digitalconstruction/0.5/Stages#HOAI_ProjectSupervision
+       </code>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity named_individual" id="ISO_22263">
+    <h3>
+     ISO_22263
+     <sup class="sup-ni" title="named individual">
+      ni
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       URI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/digitalconstruction/0.5/Stages#ISO_22263
+       </code>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity named_individual" id="ISO_Brief">
+    <h3>
+     ISO_Brief
+     <sup class="sup-ni" title="named individual">
+      ni
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       URI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/digitalconstruction/0.5/Stages#ISO_Brief
+       </code>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity named_individual" id="ISO_Demolition">
+    <h3>
+     ISO_Demolition
+     <sup class="sup-ni" title="named individual">
+      ni
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       URI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/digitalconstruction/0.5/Stages#ISO_Demolition
+       </code>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity named_individual" id="ISO_Design">
+    <h3>
+     ISO_Design
+     <sup class="sup-ni" title="named individual">
+      ni
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       URI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/digitalconstruction/0.5/Stages#ISO_Design
+       </code>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity named_individual" id="ISO_Inception">
+    <h3>
+     ISO_Inception
+     <sup class="sup-ni" title="named individual">
+      ni
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       URI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/digitalconstruction/0.5/Stages#ISO_Inception
+       </code>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity named_individual" id="ISO_Production">
+    <h3>
+     ISO_Production
+     <sup class="sup-ni" title="named individual">
+      ni
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       URI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/digitalconstruction/0.5/Stages#ISO_Production
+       </code>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity named_individual" id="RIBA">
+    <h3>
+     RIBA
+     <sup class="sup-ni" title="named individual">
+      ni
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       URI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/digitalconstruction/0.5/Stages#RIBA
+       </code>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity named_individual" id="RIBA_ConceptDesign">
+    <h3>
+     RIBA_ConceptDesign
+     <sup class="sup-ni" title="named individual">
+      ni
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       URI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/digitalconstruction/0.5/Stages#RIBA_ConceptDesign
+       </code>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity named_individual" id="RIBA_Construction">
+    <h3>
+     RIBA_Construction
+     <sup class="sup-ni" title="named individual">
+      ni
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       URI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/digitalconstruction/0.5/Stages#RIBA_Construction
+       </code>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity named_individual" id="RIBA_DevelopedDesign">
+    <h3>
+     RIBA_DevelopedDesign
+     <sup class="sup-ni" title="named individual">
+      ni
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       URI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/digitalconstruction/0.5/Stages#RIBA_DevelopedDesign
+       </code>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity named_individual" id="RIBA_HandoverandCloseout">
+    <h3>
+     RIBA_HandoverandCloseout
+     <sup class="sup-ni" title="named individual">
+      ni
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       URI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/digitalconstruction/0.5/Stages#RIBA_HandoverandCloseout
+       </code>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity named_individual" id="RIBA_InUse">
+    <h3>
+     RIBA_InUse
+     <sup class="sup-ni" title="named individual">
+      ni
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       URI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/digitalconstruction/0.5/Stages#RIBA_InUse
+       </code>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity named_individual" id="RIBA_PreparationandBrief">
+    <h3>
+     RIBA_PreparationandBrief
+     <sup class="sup-ni" title="named individual">
+      ni
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       URI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/digitalconstruction/0.5/Stages#RIBA_PreparationandBrief
+       </code>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity named_individual" id="RIBA_StrategicDefinition">
+    <h3>
+     RIBA_StrategicDefinition
+     <sup class="sup-ni" title="named individual">
+      ni
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       URI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/digitalconstruction/0.5/Stages#RIBA_StrategicDefinition
+       </code>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity named_individual" id="RIBA_TechnicalDesign">
+    <h3>
+     RIBA_TechnicalDesign
+     <sup class="sup-ni" title="named individual">
+      ni
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       URI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/digitalconstruction/0.5/Stages#RIBA_TechnicalDesign
+       </code>
+      </td>
+     </tr>
+    </table>
+   </div>
+  </section>
+  <section id="namespaces">
+   <h2>
+    Namespaces
+    <span style="float:right; font-size:smaller;">
+     <a href="">
+      &amp;uparrow
+     </a>
+    </span>
+   </h2>
+   <dl>
+    <dt>
+     :
+    </dt>
+    <dd>
+     <code>
+      https://w3id.org/digitalconstruction/0.5/Stages#
+     </code>
+    </dd>
+    <dt>
+     dicl
+    </dt>
+    <dd>
+     <code>
+      https://w3id.org/digitalconstruction/0.5/Lifecycle#
+     </code>
+    </dd>
+    <dt>
+     obda
+    </dt>
+    <dd>
+     <code>
+      https://w3id.org/obda/vocabulary#
+     </code>
+    </dd>
+    <dt>
+     owl
+    </dt>
+    <dd>
+     <code>
+      http://www.w3.org/2002/07/owl#
+     </code>
+    </dd>
+    <dt>
+     prov
+    </dt>
+    <dd>
+     <code>
+      http://www.w3.org/ns/prov#
+     </code>
+    </dd>
+    <dt>
+     rdf
+    </dt>
+    <dd>
+     <code>
+      http://www.w3.org/1999/02/22-rdf-syntax-ns#
+     </code>
+    </dd>
+    <dt>
+     rdfs
+    </dt>
+    <dd>
+     <code>
+      http://www.w3.org/2000/01/rdf-schema#
+     </code>
+    </dd>
+    <dt>
+     sdo
+    </dt>
+    <dd>
+     <code>
+      https://schema.org/
+     </code>
+    </dd>
+    <dt>
+     skos
+    </dt>
+    <dd>
+     <code>
+      http://www.w3.org/2004/02/skos/core#
+     </code>
+    </dd>
+    <dt>
+     terms
+    </dt>
+    <dd>
+     <code>
+      http://purl.org/dc/terms/
+     </code>
+    </dd>
+    <dt>
+     vann
+    </dt>
+    <dd>
+     <code>
+      http://purl.org/vocab/vann/
+     </code>
+    </dd>
+    <dt>
+     xsd
+    </dt>
+    <dd>
+     <code>
+      http://www.w3.org/2001/XMLSchema#
+     </code>
+    </dd>
+   </dl>
+  </section>
+  <section id="legend">
+   <h2>
+    Legend
+   </h2>
+   <table class="entity">
+    <tr>
+     <td>
+      <sup class="sup-c" title="Classes">
+       c
+      </sup>
+     </td>
+     <td>
+      Classes
+     </td>
+    </tr>
+    <tr>
+     <td>
+      <sup class="sup-op" title="Object Properties">
+       op
+      </sup>
+     </td>
+     <td>
+      Object Properties
+     </td>
+    </tr>
+    <tr>
+     <td>
+      <sup class="sup-fp" title="Functional Properties">
+       fp
+      </sup>
+     </td>
+     <td>
+      Functional Properties
+     </td>
+    </tr>
+    <tr>
+     <td>
+      <sup class="sup-dp" title="Data Properties">
+       dp
+      </sup>
+     </td>
+     <td>
+      Data Properties
+     </td>
+    </tr>
+    <tr>
+     <td>
+      <sup class="sup-ap" title="Annotation Properties">
+       dp
+      </sup>
+     </td>
+     <td>
+      Annotation Properties
+     </td>
+    </tr>
+    <tr>
+     <td>
+      <sup class="sup-p" title="Properties">
+       p
+      </sup>
+     </td>
+     <td>
+      Properties
+     </td>
+    </tr>
+    <tr>
+     <td>
+      <sup class="sup-ni" title="Named Individuals">
+       ni
+      </sup>
+     </td>
+     <td>
+      Named Individuals
+     </td>
+    </tr>
+   </table>
+  </section>
+ </body>
 </html>
